@@ -19,7 +19,7 @@ export default class NewCall extends Component {
       <div>
         <p>Welcome to NewCalls Component!!</p>
         <p>{this.state.submitted ? "Submitted" : "Not Submitted"}</p>
-        <p>{e.target.value}</p>
+        
         <form onSubmit={this.onSubmit}>
           <div className="form-group">
             <div className="form-check form-check-inline">
